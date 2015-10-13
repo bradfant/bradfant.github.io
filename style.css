@@ -30,7 +30,7 @@ a {
   transform: rotate(53.2deg);
   -webkit-transform: rotate(53.2deg);
   -ms-transform: rotate(53.2deg);
-  position: absolute;
+  position: fixed;
 }
 
 a:first-of-type {
