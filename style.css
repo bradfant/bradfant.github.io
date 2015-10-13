@@ -35,13 +35,13 @@ a {
 }
 
 a:first-of-type {
-  border-right: 5px solid black;
-  right: -18.5vw;
+  border-right: 10px solid black;
+  right: -18.8vw;
   bottom: 50vh;
 }
 
 a:last-of-type {
-  border-left: 5px solid black;    
-  left: -19vw;
+  border-left: 10px solid black;
+  left: -19.5vw;
   top: 50vh;
 }
