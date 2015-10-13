@@ -28,6 +28,8 @@ a {
   height: 200vw;
   width: 200vw;
   transform: rotate(53.2deg);
+  -webkit-transform: rotate(53.2deg);
+  -ms-transform: rotate(53.2deg);
   position: absolute;
 }
 
