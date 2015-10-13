@@ -5,6 +5,8 @@
 html, body {
   position: relative;
   overflow: hidden;
+  height: 100vh;
+  width: 100vw;
 }
 
 html { 
@@ -20,8 +22,6 @@ body {
   margin: 0;
   padding: 0;
   border: 10px solid black;
-  height: 100vh;
-  width: 100vw;
 }
 
 a {
@@ -29,19 +29,19 @@ a {
   display: block;
   height: 200vw;
   width: 200vw;
-  transform: rotate(53.2deg);
-  -webkit-transform: rotate(53.2deg);
-  -ms-transform: rotate(53.2deg);
+  transform: rotate(53.15deg);
+  -webkit-transform: rotate(53.15deg);
+  -ms-transform: rotate(53.15deg);
 }
 
 a:first-of-type {
   border-right: 5px solid black;
-  right: -17.5%;
-  bottom: 50%;
+  right: 50%;
+  bottom: -53.6%;
 }
 
 a:last-of-type {
   border-left: 5px solid black;
-  left: -18.3%;
-  top: 50%;
+  left: 50%;
+  top: -54.3%;
 }
