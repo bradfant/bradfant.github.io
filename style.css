@@ -36,12 +36,12 @@ a {
 
 a:first-of-type {
   border-right: 5px solid black;
-  right: -17.5%;
-  bottom: 50%;
+  right: -18.5vw;
+  bottom: 50vh;
 }
 
 a:last-of-type {
   border-left: 5px solid black;    
-  left: -18%;
-  top: 50%;
+  left: -19vw;
+  top: 50vh;
 }
