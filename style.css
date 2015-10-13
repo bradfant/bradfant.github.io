@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+html, body {
+  position: relative;
+  overflow: hidden;
+}
+
 html { 
   background: url(bg.jpg) no-repeat center center; 
   -webkit-background-size: cover;
@@ -12,7 +17,6 @@ html {
 }
 
 body {
-  overflow: hidden;
   margin: 0;
   padding: 0;
   border: 10px solid black;
