@@ -20,7 +20,7 @@ html {
 }
 
 body {
-	border: 10px solid black;
+  transform: rotateX(180deg)
 }
 
 a {
@@ -29,16 +29,19 @@ a {
   height: 200vw;
   width: 200vw;
   transform: rotate(53.15deg);
+  transition: background 350ms ease-in-out;
+}
+
+a:hover {
+  background: rgba(0,0,0,0.2);
 }
 
 a:first-of-type {
-	border-right: 5px solid black;
-  right: -16.5%;
+  right: -13.8%;
   bottom: 50%;
 }
 
 a:last-of-type {
-	border-left: 5px solid black;    
-	left: -17.1%;
+	left: -19.6%;
   top: 50%;
 }
